@@ -1,0 +1,149 @@
+{
+    "id": 123,
+    "name": "Tucson",
+    "type": "BigBox",
+    "address": "575 E Wetmore Rd",
+    "address2": "",
+    "city": "Tucson",
+    "state": "AZ",
+    "zip": "85705",
+    "lat": 32.287407,
+    "lng": -110.96164,
+    "hours": "Mon: 10-9; Tue: 10-9; Wed: 10-9; Thurs: 10-9; Fri: 10-9; Sat: 10-9; Sun: 10-8",
+    "createdAt": "2016-11-17T17:57:04.543Z",
+    "updatedAt": "2016-11-17T17:57:04.543Z",
+    "services": [
+      {
+        "id": 1,
+        "name": "Geek Squad Services",
+        "createdAt": "2016-11-17T17:56:35.881Z",
+        "updatedAt": "2016-11-17T17:56:35.881Z",
+        "storeservices": {
+          "createdAt": "2016-11-17T17:57:08.168Z",
+          "updatedAt": "2016-11-17T17:57:08.168Z",
+          "storeId": 123,
+          "serviceId": 1
+        }
+      },
+      {
+        "id": 2,
+        "name": "Best Buy Mobile",
+        "createdAt": "2016-11-17T17:56:35.881Z",
+        "updatedAt": "2016-11-17T17:56:35.881Z",
+        "storeservices": {
+          "createdAt": "2016-11-17T17:57:08.168Z",
+          "updatedAt": "2016-11-17T17:57:08.168Z",
+          "storeId": 123,
+          "serviceId": 2
+        }
+      },
+      {
+        "id": 3,
+        "name": "Best Buy For Business",
+        "createdAt": "2016-11-17T17:56:35.881Z",
+        "updatedAt": "2016-11-17T17:56:35.881Z",
+        "storeservices": {
+          "createdAt": "2016-11-17T17:57:08.168Z",
+          "updatedAt": "2016-11-17T17:57:08.168Z",
+          "storeId": 123,
+          "serviceId": 3
+        }
+      },
+      {
+        "id": 4,
+        "name": "Apple Shop",
+        "createdAt": "2016-11-17T17:56:35.881Z",
+        "updatedAt": "2016-11-17T17:56:35.881Z",
+        "storeservices": {
+          "createdAt": "2016-11-17T17:57:08.168Z",
+          "updatedAt": "2016-11-17T17:57:08.168Z",
+          "storeId": 123,
+          "serviceId": 4
+        }
+      },
+      {
+        "id": 7,
+        "name": "Electronics Recycling",
+        "createdAt": "2016-11-17T17:56:35.881Z",
+        "updatedAt": "2016-11-17T17:56:35.881Z",
+        "storeservices": {
+          "createdAt": "2016-11-17T17:57:08.168Z",
+          "updatedAt": "2016-11-17T17:57:08.168Z",
+          "storeId": 123,
+          "serviceId": 7
+        }
+      },
+      {
+        "id": 8,
+        "name": "Magnolia Home Theater",
+        "createdAt": "2016-11-17T17:56:35.881Z",
+        "updatedAt": "2016-11-17T17:56:35.881Z",
+        "storeservices": {
+          "createdAt": "2016-11-17T17:57:08.168Z",
+          "updatedAt": "2016-11-17T17:57:08.168Z",
+          "storeId": 123,
+          "serviceId": 8
+        }
+      },
+      {
+        "id": 10,
+        "name": "Windows Store",
+        "createdAt": "2016-11-17T17:56:35.881Z",
+        "updatedAt": "2016-11-17T17:56:35.881Z",
+        "storeservices": {
+          "createdAt": "2016-11-17T17:57:08.168Z",
+          "updatedAt": "2016-11-17T17:57:08.168Z",
+          "storeId": 123,
+          "serviceId": 10
+        }
+      },
+      {
+        "id": 11,
+        "name": "Samsung Experience",
+        "createdAt": "2016-11-17T17:56:35.881Z",
+        "updatedAt": "2016-11-17T17:56:35.881Z",
+        "storeservices": {
+          "createdAt": "2016-11-17T17:57:08.168Z",
+          "updatedAt": "2016-11-17T17:57:08.168Z",
+          "storeId": 123,
+          "serviceId": 11
+        }
+      },
+      {
+        "id": 12,
+        "name": "Car & GPS Installation Services",
+        "createdAt": "2016-11-17T17:56:35.881Z",
+        "updatedAt": "2016-11-17T17:56:35.881Z",
+        "storeservices": {
+          "createdAt": "2016-11-17T17:57:08.168Z",
+          "updatedAt": "2016-11-17T17:57:08.168Z",
+          "storeId": 123,
+          "serviceId": 12
+        }
+      },
+      {
+        "id": 13,
+        "name": "LG Experience ",
+        "createdAt": "2016-11-17T17:56:35.881Z",
+        "updatedAt": "2016-11-17T17:56:35.881Z",
+        "storeservices": {
+          "createdAt": "2016-11-17T17:57:08.168Z",
+          "updatedAt": "2016-11-17T17:57:08.168Z",
+          "storeId": 123,
+          "serviceId": 13
+        }
+      },
+      {
+        "id": 14,
+        "name": "Sony Experience ",
+        "createdAt": "2016-11-17T17:56:35.881Z",
+        "updatedAt": "2016-11-17T17:56:35.881Z",
+        "storeservices": {
+          "createdAt": "2016-11-17T17:57:08.168Z",
+          "updatedAt": "2016-11-17T17:57:08.168Z",
+          "storeId": 123,
+          "serviceId": 14
+        }
+      }
+    ]
+  }
