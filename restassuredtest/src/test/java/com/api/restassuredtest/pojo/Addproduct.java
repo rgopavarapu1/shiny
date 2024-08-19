@@ -72,6 +72,4 @@ public class Addproduct {
     public void setImage(String image) {
         this.image = image;
     }
-
-
 }

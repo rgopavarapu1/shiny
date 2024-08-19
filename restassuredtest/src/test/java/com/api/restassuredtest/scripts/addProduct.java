@@ -1,12 +1,12 @@
 package com.api.restassuredtest.scripts;
 
 import static io.restassured.RestAssured.given;
-import static org.junit.Assert.assertEquals;
 
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
+import org.testng.Assert;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
@@ -40,7 +40,7 @@ public class addProduct extends utils{
 
         System.out.println(arr);
         // arr.appened(apiresult.jsonPath().getString("id"));
-        assertEquals(getJsonPathUri(apiresult, "name"), name);
+        Assert.assertEquals(getJsonPathUri(apiresult, "name"), name);
         
     }
     
