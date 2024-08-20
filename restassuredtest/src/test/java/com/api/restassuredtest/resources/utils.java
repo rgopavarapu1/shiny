@@ -18,7 +18,6 @@ public class utils {
     public static Properties prop;
     public static RequestSpecification baseReq;
     public static FileInputStream fis;
-    // TODO: use conditional operator to get endpoint based on environment
     
     public RequestSpecification baseRequestSpecification() throws IOException {
         if(baseReq == null) {
