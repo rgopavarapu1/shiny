@@ -8,7 +8,7 @@ import org.testng.annotations.Test;
 import com.api.restassuredtest.pojo.Services;
 import com.api.restassuredtest.pojo.StoreInfo;
 
-public class getStore {
+public class TestGetStore {
 
     @Test
     public void getStoreInfo() {

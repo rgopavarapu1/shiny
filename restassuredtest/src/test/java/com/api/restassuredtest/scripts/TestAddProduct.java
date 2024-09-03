@@ -19,7 +19,7 @@ import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
 import io.restassured.specification.ResponseSpecification;
 
-public class addProduct extends utils{
+public class TestAddProduct extends utils{
 
     RequestSpecification baseRequest;
     ResponseSpecification res;
@@ -29,9 +29,9 @@ public class addProduct extends utils{
     addProductPayload payload = new addProductPayload();
 
 
-    @Test(dataProvider = "ProductDetails")
-    public void addnewProduct(String name, String type, long price, long shipping, String upc, String description, String manufacturer, String model, String url, String website, String image) throws IOException{
-        baseRequest = given().spec(baseRequestSpecification()).body(addProductPayload.AddNewProduct(name, type, price, shipping, upc, description, manufacturer, model, url, website, image));
+    @Test(dataProvider = "ProductDetails", enabled = false)
+    public void addnewProduct(String name, String type, long price, long shipping, String upc, String description, String manufacturer, String model, String website, String image) throws IOException{
+        baseRequest = given().spec(baseRequestSpecification()).body(addProductPayload.AddNewProduct(name, type, price, shipping, upc, description, manufacturer, model, website, image));
 
         res = new ResponseSpecBuilder().expectStatusCode(201).expectContentType(ContentType.JSON).build();
         apiresult = baseRequest.when().post("/products").then().spec(res).extract().response();

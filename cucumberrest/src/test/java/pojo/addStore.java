@@ -1,7 +1,5 @@
 package pojo;
 
-import java.util.List;
-
 public class addStore {
     private String name;
     private String type;
