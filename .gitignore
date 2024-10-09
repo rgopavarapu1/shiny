@@ -32,3 +32,4 @@ org.*
 hs_err_pid*
 replay_pid*
 /.metadata/
+.vscode/settings.json
