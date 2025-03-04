@@ -1,7 +1,7 @@
 package com.api.restassuredtest.resources;
 
 public enum apiResources {
-    products("/products");
+    PRODUCTS("/products");
     private String resource;
 
     apiResources(String resource) {

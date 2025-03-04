@@ -14,7 +14,7 @@ import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
 import io.restassured.specification.ResponseSpecification;
 
-public class AddproductPojo extends utils{
+public class TestAddproductPojo extends utils{
 
     RequestSpecification baseRequest;
     ResponseSpecification res;
@@ -35,7 +35,6 @@ public class AddproductPojo extends utils{
         pj.setUrl("/dashcam/dualcam");
         // pj.setWebsite("http://www.cam.com");
         pj.setImage("Are we really loading image as string?");
-
 
         baseRequest = given().spec(baseRequestSpecification()).body(pj);
 
